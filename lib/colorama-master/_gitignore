@@ -1,0 +1,9 @@
+*.pyc
+*.egg-info
+MANIFEST
+dist
+tags
+virtualenv
+
+# PyCharm
+.idea
