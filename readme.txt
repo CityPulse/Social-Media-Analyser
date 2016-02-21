@@ -16,21 +16,28 @@
     ============
     Requirements/Dependencies
     ============
-
+    Data colloction unit requires a mysql database of the following schema to be constructed prior to collection:
+    '''CREATE TABLE `AarhusTweet` (
+             `twitterstream` VARCHAR(100) NOT NULL,
+             `userid` VARCHAR(100) NOT NULL,
+             `text` VARCHAR(500) NOT NULL,
+             `time` VARCHAR(100) NOT NULL,
+             `lat` VARCHAR(100) NOT NULL,
+             `long` VARCHAR(100) NOT NULL,
+             `boundingbox` VARCHAR(400) NOT NULL,
+            ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+            '''
     The package needs the senna Convolutional Neural Network package to be installed in the main directory from: 
     http://ronan.collobert.com/senna/
-    It also requires Conditional random field NER tagger which can be downloaded here: 
+    It also requires Conditional random field NER tagger which can be downloaded from: 
     http://personal.ee.surrey.ac.uk/Personal/N.Farajidavar/Downloads.html
 
 
     ============
-    Installation
-    ============
-    Once the dependencies mentioned above are installed, the 
-
-    =====
     Usage
-    =====
+    ============
+    Once the dependencies mentioned above are installed, need to run the main code in Python:
+    python Aarhus_v4.py
 
     
     ===============
@@ -39,6 +46,7 @@
 
     Ronan Collobert for his CNN C++ package
     Alias-i for the Conditional Random Field Java package 
+    This work has been carried out in the scope of the European Commission’s Seventh Framework Programme funded project CityPulse (FP7	    -609035).
 
     
     =======
