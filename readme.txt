@@ -14,7 +14,7 @@
 
 
     ============
-    Requirements
+    Requirements/Dependencies
     ============
 
     The package needs the senna Convolutional Neural Network package to be installed in the main directory from: 
@@ -26,7 +26,7 @@
     ============
     Installation
     ============
-
+    Once the dependencies mentioned above are installed, the 
 
     =====
     Usage
