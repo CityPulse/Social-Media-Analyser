@@ -18,10 +18,6 @@ import numpy as np
 from datetime import datetime
 import codecs, json
 import mysql as MySQLdb
-from colorama import init
-import site
-init(wrap=True)
-from colorama import Fore, Back, Style
 import pylab as pl
 import string
 import random
