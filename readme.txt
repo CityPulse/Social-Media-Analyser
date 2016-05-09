@@ -23,6 +23,7 @@
     - php
     - mysql php connector
     
+    
     ============
     Dependencies
     ============
@@ -45,24 +46,19 @@
 
 
     ============
-    Installation/Running 
-    ============
-    Once all dependencies are installed and compiled, run the following comand on terminal:
-    $ python Aarhus_v4.py
-    ============
-    Usage
+    Running/Usage
     ============
     Once the dependencies mentioned above are installed, need to run the main code in Python:
-    python Aarhus_v4.py
+    $ python Aarhus_v4.py
 
     
     ===============
     Acknowledgments
     ===============
 
-    Ronan Collobert for his CNN C++ package
-    Alias-i for the Conditional Random Field Java package 
-    This work has been carried out in the scope of the European Commission’s Seventh Framework Programme funded project CityPulse (FP7	    -609035).
+    - Ronan Collobert for his CNN C++ package
+    - Alias-i for the Conditional Random Field Java package 
+    - This work has been carried out in the scope of the European Commission’s Seventh Framework Programme funded project CityPulse (FP7	    -609035).
 
     
     =======
@@ -85,7 +81,8 @@
     ============
 
     The original zipfile can be freely distributed, by any means.  However,
-    I would like to be cited in case if it is used.
+    I would like to be cited in case if it is used:
+    
     Modified versions may be distributed, provided it is indicated as such
     in the version text and a source diff is made available.  
 
