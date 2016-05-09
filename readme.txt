@@ -14,7 +14,17 @@
 
 
     ============
-    Requirements/Dependencies
+    System requirements
+    ============
+    - Java compiler
+    - C++ compiler
+    - Pyton 2.7 or hihgher
+    - mysql 
+    - php
+    - mysql php connector
+    
+    ============
+    Dependencies
     ============
     Data colloction unit requires a mysql database of the following schema to be constructed prior to collection:
     '''CREATE TABLE `AarhusTweet` (
@@ -27,12 +37,18 @@
              `boundingbox` VARCHAR(400) NOT NULL,
             ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
             '''
-    The package needs the senna Convolutional Neural Network package to be installed in the main directory from: 
+    The package needs the senna C++ Convolutional Neural Network package to be installed in the main directory from: 
     http://ronan.collobert.com/senna/
     It also requires Conditional random field NER tagger which can be downloaded from: 
     http://personal.ee.surrey.ac.uk/Personal/N.Farajidavar/Downloads.html
+    Python package dependencies: Pandas, mysql, matplotlib, pylab, geopy, goslate, pika, rabbitmq
 
 
+    ============
+    Installation/Running 
+    ============
+    Once all dependencies are installed and compiled, run the following comand on terminal:
+    $ python Aarhus_v4.py
     ============
     Usage
     ============
