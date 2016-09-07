@@ -24,7 +24,8 @@ The web interface utilises javascript and html coding and reads the annotated da
     
 ## Dependencies
 Data colloction unit requires a mysql database of the following schema to be constructed prior to collection:
-'''CREATE TABLE `AarhusTweet` (
+	```
+	CREATE TABLE `AarhusTweet` (
      `twitterstream` VARCHAR(100) NOT NULL,
      `userid` VARCHAR(100) NOT NULL,
      `text` VARCHAR(500) NOT NULL,
@@ -33,7 +34,7 @@ Data colloction unit requires a mysql database of the following schema to be con
      `long` VARCHAR(100) NOT NULL,
      `boundingbox` VARCHAR(400) NOT NULL,
     ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-    '''
+	```
 The package needs the senna C++ Convolutional Neural Network package to be installed in the main directory from: 
 
 http://ronan.collobert.com/senna/
@@ -46,7 +47,7 @@ Python package dependencies: Pandas, mysql, matplotlib, pylab, geopy, goslate, p
 
 ## Running/Usage
 Once the dependencies mentioned above are installed, need to run the main code in Python:
-$ python Aarhus_v4.py
+	``` python Aarhus_v4.py	```
 
 ## Acknowledgments
 - Ronan Collobert for his CNN C++ package
